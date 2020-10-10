@@ -1,0 +1,69 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    async (1.26.2)
+      console (~> 1.0)
+      nio4r (~> 2.3)
+      timers (~> 4.1)
+    async-http (0.52.5)
+      async (~> 1.25)
+      async-io (~> 1.28)
+      async-pool (~> 0.2)
+      protocol-http (~> 0.20.0)
+      protocol-http1 (~> 0.13.0)
+      protocol-http2 (~> 0.14.0)
+    async-io (1.30.1)
+      async (~> 1.14)
+    async-pool (0.3.2)
+      async (~> 1.25)
+    async-websocket (0.16.0)
+      async-http (~> 0.51)
+      async-io (~> 1.23)
+      protocol-websocket (~> 0.7.0)
+    console (1.9.0)
+    dotenv (2.7.6)
+    faraday (1.0.1)
+      multipart-post (>= 1.2, < 3)
+    faraday_middleware (1.0.0)
+      faraday (~> 1.0)
+    gli (2.19.2)
+    hashie (4.1.0)
+    multipart-post (2.1.1)
+    nio4r (2.5.4)
+    protocol-hpack (1.4.2)
+    protocol-http (0.20.1)
+    protocol-http1 (0.13.1)
+      protocol-http (~> 0.19)
+    protocol-http2 (0.14.1)
+      protocol-hpack (~> 1.4)
+      protocol-http (~> 0.18)
+    protocol-websocket (0.7.5)
+      protocol-http (~> 0.2)
+      protocol-http1 (~> 0.2)
+    slack-ruby-bot (0.16.0)
+      hashie
+      slack-ruby-client (>= 0.14.0)
+    slack-ruby-client (0.15.1)
+      faraday (>= 1.0)
+      faraday_middleware
+      gli
+      hashie
+      websocket-driver
+    timers (4.3.2)
+    websocket-driver (0.7.3)
+      websocket-extensions (>= 0.1.0)
+    websocket-extensions (0.1.5)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  async-websocket
+  dotenv
+  slack-ruby-bot
+
+RUBY VERSION
+   ruby 2.5.1p57
+
+BUNDLED WITH
+   2.1.4
