@@ -4,7 +4,9 @@
 
 ※ AWS Lambdaで稼働中。
 
-## セットアップ（ローカル環境）
+参照記事: [Ruby × AWS Lambda × CloudWatch Eventsで定期実行プログラムを作成する](https://qiita.com/kazama1209/items/ab6bd2c09adaadba8cf6)
+
+## セットアップ
 
 ### Rubyのバージョン指定
 
